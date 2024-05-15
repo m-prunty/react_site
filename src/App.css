@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.name {
+  color: purple;
+}
+.age {
+  color: blue;
+}
+.ageUnder {
+  color: red;
+}
+.email{
+  color: green
+}
