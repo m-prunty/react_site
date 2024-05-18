@@ -42,7 +42,7 @@ jobs:
                 echo LOG_LEVEL=${{ secrets.LOG_LEVEL }} >> .env
             - run: |
                 if [ -d /var/www/html/uploads ]; then
-                  cp -r /var/www/html/uploads/* uploads/
+                  cp -r /var/www/html/uploads/* /home/ubuntu/uploads/
                 fi
             - run: docker compose stop && docker compose up -d --build
             - run: docker exec node-svc yarn migrate
