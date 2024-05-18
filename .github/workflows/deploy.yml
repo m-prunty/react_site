@@ -45,5 +45,5 @@ jobs:
                   cp -r /var/www/html/uploads/* /home/ubuntu/uploads/
                 fi
             - run: docker compose stop && docker compose up -d --build
-            - run: docker exec node-svc yarn migrate
-            - run: docker exec node-svc yarn seed
+#            - run: docker exec node-svc yarn migrate
+#            - run: docker exec node-svc yarn seed
