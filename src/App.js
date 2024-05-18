@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
 	const users = [
-		{ name:"Bob", age: 33, email: "bob@bob.com"},
+//		{ name:"Bob", age: 33, email: "bob@bob.com"},
 		{ name:"John", age: 17, email: "bob@bob.com"},
 		{ name:"Alice", age: 38, email: "bob@bob.com"},
 		{ name:"Mary", age: 26, email: "bob@bob.com"}
