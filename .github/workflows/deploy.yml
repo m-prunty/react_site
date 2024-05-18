@@ -48,4 +48,5 @@ jobs:
 #            - run: docker exec node-svc yarn migrate
 #            - run: docker exec node-svc yarn seed
 #
-#
+            - run: cp -r ./build/ /var/www/html
+
